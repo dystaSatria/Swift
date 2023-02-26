@@ -1,19 +1,16 @@
-func ters_sayi(_ sayi: Int) -> Int {
-    var result = 0
-    var num = sayi
-    
-    while num != 0 {
-        var hane = num % 10
-        result = result * 10 + hane
-        num /= 10
-    }
-    
-    return result
+
+var numbers = [10, 20, 30, 40, 50]
+
+// Ask the user for a value
+print("Enter a number:")
+var value = Int(readLine()!)!
+
+// Check if the value is in the array
+if numbers.contains(value) {
+    print("\(value) is in the array.")
+} else {
+    print("\(value) is not in the array.")
 }
 
 
-print("Sayi girin :\n")
-var sayi = Int(readLine()!)!
-var sonuc = ters_sayi(sayi)
-print("Ters sayi \(sayi), \(sonuc)")
-    
+
