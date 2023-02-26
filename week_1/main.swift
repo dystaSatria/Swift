@@ -3,8 +3,8 @@ func ters_sayi(_ sayi: Int) -> Int {
     var num = sayi
     
     while num != 0 {
-        var digit = num % 10
-        result = result * 10 + digit
+        var hane = num % 10
+        result = result * 10 + hane
         num /= 10
     }
     
