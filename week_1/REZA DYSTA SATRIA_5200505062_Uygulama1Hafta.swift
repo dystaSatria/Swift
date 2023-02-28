@@ -1,4 +1,4 @@
-//Fonksiyonlar
+//All Fonksiyons
 func factorial_for(_ x: Int) -> Int {
     var sonuc_for = 1
     for i in 1...x {
