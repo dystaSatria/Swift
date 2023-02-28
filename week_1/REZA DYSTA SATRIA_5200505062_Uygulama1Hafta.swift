@@ -161,5 +161,5 @@ switch secenek {
     print("ve \(sonuc)")
     
   default:
-    print("Hata yaptiniz.Sadece 1 6'e kadar yazabilirsiniz.")
+    print("Error.You just can input ")
     }
