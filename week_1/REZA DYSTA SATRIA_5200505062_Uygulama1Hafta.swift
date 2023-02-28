@@ -161,5 +161,5 @@ switch secenek {
     print("ve \(sonuc)")
     
   default:
-    print("Error.You just can input ")
+    print("Error.You just can select from 1 to 6 ")
     }
