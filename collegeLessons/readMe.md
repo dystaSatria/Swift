@@ -5,4 +5,4 @@
 * Kullanıcıdan konum alabilmek için "CoreLocation" kütüphanesi kullanılmaktadır. 
 * Pinleme işlemi "GestureRecognizer" komutu ile gerçekleştirilmektedir.
 
-...
+
