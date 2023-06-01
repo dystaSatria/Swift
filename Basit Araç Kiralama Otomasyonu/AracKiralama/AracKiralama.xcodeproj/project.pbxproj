@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F3CB202A285D25004B4B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB1F2A285D25004B4B01 /* AppDelegate.swift */; };
+		23F3CB222A285D25004B4B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB212A285D25004B4B01 /* SceneDelegate.swift */; };
+		23F3CB242A285D25004B4B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB232A285D25004B4B01 /* ViewController.swift */; };
+		23F3CB272A285D25004B4B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3CB252A285D25004B4B01 /* Main.storyboard */; };
+		23F3CB292A285D26004B4B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3CB282A285D26004B4B01 /* Assets.xcassets */; };
+		23F3CB2C2A285D26004B4B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3CB2A2A285D26004B4B01 /* LaunchScreen.storyboard */; };
+		23F3CB372A285D26004B4B01 /* AracKiralamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB362A285D26004B4B01 /* AracKiralamaTests.swift */; };
+		23F3CB412A285D26004B4B01 /* AracKiralamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB402A285D26004B4B01 /* AracKiralamaUITests.swift */; };
+		23F3CB432A285D26004B4B01 /* AracKiralamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CB422A285D26004B4B01 /* AracKiralamaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F3CB332A285D26004B4B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F3CB142A285D25004B4B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F3CB1B2A285D25004B4B01;
+			remoteInfo = AracKiralama;
+		};
+		23F3CB3D2A285D26004B4B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F3CB142A285D25004B4B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F3CB1B2A285D25004B4B01;
+			remoteInfo = AracKiralama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F3CB1C2A285D25004B4B01 /* AracKiralama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AracKiralama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3CB1F2A285D25004B4B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23F3CB212A285D25004B4B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23F3CB232A285D25004B4B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23F3CB262A285D25004B4B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23F3CB282A285D26004B4B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F3CB2B2A285D26004B4B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23F3CB2D2A285D26004B4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F3CB322A285D26004B4B01 /* AracKiralamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AracKiralamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3CB362A285D26004B4B01 /* AracKiralamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracKiralamaTests.swift; sourceTree = "<group>"; };
+		23F3CB3C2A285D26004B4B01 /* AracKiralamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AracKiralamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3CB402A285D26004B4B01 /* AracKiralamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracKiralamaUITests.swift; sourceTree = "<group>"; };
+		23F3CB422A285D26004B4B01 /* AracKiralamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracKiralamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F3CB192A285D25004B4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB2F2A285D26004B4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB392A285D26004B4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F3CB132A285D25004B4B01 = {
+			isa = PBXGroup;
+			children = (
+				23F3CB1E2A285D25004B4B01 /* AracKiralama */,
+				23F3CB352A285D26004B4B01 /* AracKiralamaTests */,
+				23F3CB3F2A285D26004B4B01 /* AracKiralamaUITests */,
+				23F3CB1D2A285D25004B4B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F3CB1D2A285D25004B4B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F3CB1C2A285D25004B4B01 /* AracKiralama.app */,
+				23F3CB322A285D26004B4B01 /* AracKiralamaTests.xctest */,
+				23F3CB3C2A285D26004B4B01 /* AracKiralamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F3CB1E2A285D25004B4B01 /* AracKiralama */ = {
+			isa = PBXGroup;
+			children = (
+				23F3CB1F2A285D25004B4B01 /* AppDelegate.swift */,
+				23F3CB212A285D25004B4B01 /* SceneDelegate.swift */,
+				23F3CB232A285D25004B4B01 /* ViewController.swift */,
+				23F3CB252A285D25004B4B01 /* Main.storyboard */,
+				23F3CB282A285D26004B4B01 /* Assets.xcassets */,
+				23F3CB2A2A285D26004B4B01 /* LaunchScreen.storyboard */,
+				23F3CB2D2A285D26004B4B01 /* Info.plist */,
+			);
+			path = AracKiralama;
+			sourceTree = "<group>";
+		};
+		23F3CB352A285D26004B4B01 /* AracKiralamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F3CB362A285D26004B4B01 /* AracKiralamaTests.swift */,
+			);
+			path = AracKiralamaTests;
+			sourceTree = "<group>";
+		};
+		23F3CB3F2A285D26004B4B01 /* AracKiralamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23F3CB402A285D26004B4B01 /* AracKiralamaUITests.swift */,
+				23F3CB422A285D26004B4B01 /* AracKiralamaUITestsLaunchTests.swift */,
+			);
+			path = AracKiralamaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F3CB1B2A285D25004B4B01 /* AracKiralama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3CB462A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralama" */;
+			buildPhases = (
+				23F3CB182A285D25004B4B01 /* Sources */,
+				23F3CB192A285D25004B4B01 /* Frameworks */,
+				23F3CB1A2A285D25004B4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AracKiralama;
+			productName = AracKiralama;
+			productReference = 23F3CB1C2A285D25004B4B01 /* AracKiralama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F3CB312A285D26004B4B01 /* AracKiralamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3CB492A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralamaTests" */;
+			buildPhases = (
+				23F3CB2E2A285D26004B4B01 /* Sources */,
+				23F3CB2F2A285D26004B4B01 /* Frameworks */,
+				23F3CB302A285D26004B4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F3CB342A285D26004B4B01 /* PBXTargetDependency */,
+			);
+			name = AracKiralamaTests;
+			productName = AracKiralamaTests;
+			productReference = 23F3CB322A285D26004B4B01 /* AracKiralamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23F3CB3B2A285D26004B4B01 /* AracKiralamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3CB4C2A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralamaUITests" */;
+			buildPhases = (
+				23F3CB382A285D26004B4B01 /* Sources */,
+				23F3CB392A285D26004B4B01 /* Frameworks */,
+				23F3CB3A2A285D26004B4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F3CB3E2A285D26004B4B01 /* PBXTargetDependency */,
+			);
+			name = AracKiralamaUITests;
+			productName = AracKiralamaUITests;
+			productReference = 23F3CB3C2A285D26004B4B01 /* AracKiralamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F3CB142A285D25004B4B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23F3CB1B2A285D25004B4B01 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					23F3CB312A285D26004B4B01 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 23F3CB1B2A285D25004B4B01;
+					};
+					23F3CB3B2A285D26004B4B01 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 23F3CB1B2A285D25004B4B01;
+					};
+				};
+			};
+			buildConfigurationList = 23F3CB172A285D25004B4B01 /* Build configuration list for PBXProject "AracKiralama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F3CB132A285D25004B4B01;
+			productRefGroup = 23F3CB1D2A285D25004B4B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F3CB1B2A285D25004B4B01 /* AracKiralama */,
+				23F3CB312A285D26004B4B01 /* AracKiralamaTests */,
+				23F3CB3B2A285D26004B4B01 /* AracKiralamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F3CB1A2A285D25004B4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3CB2C2A285D26004B4B01 /* LaunchScreen.storyboard in Resources */,
+				23F3CB292A285D26004B4B01 /* Assets.xcassets in Resources */,
+				23F3CB272A285D25004B4B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB302A285D26004B4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB3A2A285D26004B4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F3CB182A285D25004B4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3CB242A285D25004B4B01 /* ViewController.swift in Sources */,
+				23F3CB202A285D25004B4B01 /* AppDelegate.swift in Sources */,
+				23F3CB222A285D25004B4B01 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB2E2A285D26004B4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3CB372A285D26004B4B01 /* AracKiralamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3CB382A285D26004B4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3CB412A285D26004B4B01 /* AracKiralamaUITests.swift in Sources */,
+				23F3CB432A285D26004B4B01 /* AracKiralamaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F3CB342A285D26004B4B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F3CB1B2A285D25004B4B01 /* AracKiralama */;
+			targetProxy = 23F3CB332A285D26004B4B01 /* PBXContainerItemProxy */;
+		};
+		23F3CB3E2A285D26004B4B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F3CB1B2A285D25004B4B01 /* AracKiralama */;
+			targetProxy = 23F3CB3D2A285D26004B4B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23F3CB252A285D25004B4B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F3CB262A285D25004B4B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23F3CB2A2A285D26004B4B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F3CB2B2A285D26004B4B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F3CB442A285D26004B4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23F3CB452A285D26004B4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F3CB472A285D26004B4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AracKiralama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F3CB482A285D26004B4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AracKiralama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23F3CB4A2A285D26004B4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AracKiralama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AracKiralama";
+			};
+			name = Debug;
+		};
+		23F3CB4B2A285D26004B4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AracKiralama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AracKiralama";
+			};
+			name = Release;
+		};
+		23F3CB4D2A285D26004B4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AracKiralama;
+			};
+			name = Debug;
+		};
+		23F3CB4E2A285D26004B4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleInformation.AracKiralamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AracKiralama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F3CB172A285D25004B4B01 /* Build configuration list for PBXProject "AracKiralama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3CB442A285D26004B4B01 /* Debug */,
+				23F3CB452A285D26004B4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F3CB462A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3CB472A285D26004B4B01 /* Debug */,
+				23F3CB482A285D26004B4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F3CB492A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3CB4A2A285D26004B4B01 /* Debug */,
+				23F3CB4B2A285D26004B4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F3CB4C2A285D26004B4B01 /* Build configuration list for PBXNativeTarget "AracKiralamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3CB4D2A285D26004B4B01 /* Debug */,
+				23F3CB4E2A285D26004B4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F3CB142A285D25004B4B01 /* Project object */;
+}
