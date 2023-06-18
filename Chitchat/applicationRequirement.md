@@ -44,7 +44,7 @@ end
 <br>
 <br>
 
-  Delete Main storyboard file base name.
-  Open the Aplication Scene manifest and delete the Storyboard Name.
+    * Delete Main storyboard file base name.
+    * Open the Aplication Scene manifest and delete the Storyboard Name.
 
 
