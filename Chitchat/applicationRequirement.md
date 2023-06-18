@@ -8,8 +8,8 @@ cd Dekstop/chitchat
 ```terminal
 sudo gem install cocoapods
 ```
-* Install pod
+* Open pod
 ```terminal
-pod install
+pod init; open PodFile
 
 ```
