@@ -40,7 +40,10 @@ end
 
 ```
 * Delete the main.Storyboard
-* Open the chitchat project's info
+* Open the chitchat project's info.
+<br>
+<br>
+
   Delete Main storyboard file base name.
   Open the Aplication Scene manifest and delete the Storyboard Name.
 
